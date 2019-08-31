@@ -33,23 +33,23 @@ export default class App extends Component {
 
   function Add(e){//function to add clicked button
 
-    var ans= [];
+    var check= [];
     final.push(e)
     for(var i=0;i<final.length;i++)//match each elements of array
     {
         if(final[i] == word[i])
         {
-         ans.push("matched")
+         check.push("matched")
         }
         else{
-        ans.push("unmatched")
+        check.push("unmatched")
         }  
     }
-    if(ans.length == word.length && ans.indexOf("unmatched") == -1){
+    if(check.length == word.length && check.indexOf("unmatched") == -1){
 
          document.getElementById("result").innerHTML = "<button class='ans_btn' >corrected</button>"
 
-      }else if( ans.length == word.length && ans.indexOf("unmatched") !== -1){
+      }else if( check.length == word.length && check.indexOf("unmatched") !== -1){
 
         document.getElementById("result").innerHTML = "<button class='ans_btnw' >incorrect</button>"
 

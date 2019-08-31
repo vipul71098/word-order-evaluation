@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 export default class App extends Component {
   render() {
     const word = ["winter","is","coming"];
-    var len2 = word.length;
     var ren = word.join(' ');
     var ran_word = [];
     const distinct =(value,index,self) => {

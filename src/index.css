@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.container{
+  width: 700px;
+  height:500px;
+  border:1px solid #87868b;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+.heading{
+  border: 1px solid #87868b;
+  height: 110px;
+}
+.text{
+  border: 1px solid #87868b;
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+.btn{
+  background-color: #367fac;
+  color: white;
+  width:120px;
+  height: 53px;
+  border:1px solid #367fac;
+  padding: 10px;
+  margin: 5px 5px;
+  font-size: 20px;
+  
+}
+.btnS{
+  background-color: #367fac;
+  color: white;
+  width:120px;
+  height: 53px;
+  border:1px solid #367fac;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  
+}
+.display{
+  border: 1px solid #87868b;
+  height: 185px; 
+}
+.btn_ans{
+  background-color: #319243;
+  color: white;
+  height: 60px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ans_btn{
+  background-color: #2f9041;
+  color:white;
+  width:300px;
+  height:60px;
+  text-align: center;
+  margin-left: 160px;
+  margin-top: 10px;
+}
+.ans_btnw{
+  background-color:red;
+  color:white;
+  width:300px;
+  height:60px;
+  text-align: center;
+  margin-left: 160px;
+  margin-top: 10px;
+}
+.result{
+  border: 1px solid #87868b;
+  height: 100px;
+}
+.ans_grid{
+  border: 1px solid #87868b;
+  height: 100px;
+}
